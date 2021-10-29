@@ -1,0 +1,41 @@
+.fot-img{
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top:2px solid black ;
+}
+.f-h4{
+    color: rgb(211, 125, 20);
+    cursor: pointer;
+}
+.f-h4:hover{
+    color: rgba(5, 2, 4, 0.945);
+}
+.f-h6{
+    color: rgba(2, 0, 2, 0.945);
+    cursor: pointer;
+}
+.f-h6:hover{
+    color: rgb(211, 125, 20);
+}
+.hov{
+    size: 20px;
+    padding-right: 10px;
+    color: rgba(109, 70, 101, 0.945);
+}
+.hov:hover{
+    color: rgb(211, 125, 20);
+}
+.btnsi{
+    width: 100%;
+    background-color:transparent;
+    height: 50px;
+    color: rgba(109, 70, 101, 0.945);
+    border: 2px solid rgb(243, 128, 45);
+    border-radius: 40px;
+    font-size: 20px;
+}
+.btnsi:hover{
+    background-color:rgb(243, 128, 45) ;
+    color: rgb(247, 242, 239)
+}

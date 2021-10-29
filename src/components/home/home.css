@@ -1,0 +1,40 @@
+.f-box{
+    margin: 10px;
+    border-radius:20px;
+    padding:30px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.bg-w{
+    width: 50px;
+    border: 2px solid rgb(15, 12, 12);
+    border-radius: 10px;
+    margin-bottom: 5px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+.bg-w2{
+    width: 96px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    margin-right: 20px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+.bg-h6{
+    color: coral;
+    font-size: 20px;
+    
+}
+.bg-h6:hover{
+    color: rgb(3, 27, 9);
+
+}
+.bg-w3{
+    width: 335px;
+    padding: 10px;
+    margin: 20px;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+.h-w{
+    padding-left: 50px;
+    height:60px;
+    width: 100%;
+}

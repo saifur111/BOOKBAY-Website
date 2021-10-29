@@ -1,0 +1,36 @@
+.login {
+  width: 100vw;
+  height: 100vh;
+  background-color: #f0f2f5;
+  display: flex;
+  margin: 10px;
+}
+.loginWrapper {
+  width: 60%;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  padding: 20px;
+}
+
+.loginDesc {
+  font-size: 40px;
+  font-weight: 700;
+  color: rgb(80, 214, 255);
+  margin: 10px;
+}
+
+.loginInput:focus{
+    outline: none;
+}
+
+.loginForgot{
+    text-align: center;
+    color: #1775ee;
+}
+
+.limg{
+  width: 180px;
+  margin: 10px;
+}
