@@ -3,6 +3,7 @@ import Viewsingleproduct from './Viewsingleproduct';
 import '../../Services/Services.css';
 import Button from '@restart/ui/esm/Button';
 import { Link } from 'react-router-dom';
+import { Spinner } from 'react-bootstrap';
 
 const ViewAllProducts = () => {
     const [products,setProducts]=useState([]);
@@ -19,6 +20,10 @@ const ViewAllProducts = () => {
             </Link>
             <div className="service-container container">
                     {
+                        products.length===0 ? 
+                        <div className="d-flex justify-content-center align-items-center">
+                          <Spinner animation="border" />
+                        </div>:
                         products.map(product=> <Viewsingleproduct
                             Viewsingleproduct
                             key={product._id}

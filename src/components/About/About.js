@@ -23,7 +23,7 @@ const About =()=> {
                     />
                     <Carousel.Caption className='pt-0'>
                         <h1 className='banner-h1'>ABOUT US</h1>
-                        <p className='banner-p'>Making it easy to see a doctor online, right now.</p>
+                        <p className='banner-p'>Making it easy to find all books Bookbay online Shop, right now.</p>
                         <Link className='btn btn-outline-dark m-2 p-2' to="/services">Shop Now</Link> 
                     </Carousel.Caption>
                 </Carousel.Item>
@@ -96,7 +96,7 @@ No Risk Money </h6>
                 <div className="m-lg-2 p-lg-2">
                     
                     <h1 className="m-lg-2 p-lg-2">How Safe is an Online Prescription?</h1>
-                    <p className="m-lg-3 p-lg-3">Online doctors hold the same qualification as in-office doctors. They are also licensed to practice medicine and additionally trained to offer medical care with telemedicine.  The differences between the two groups of physicians are in accessibility, duration of time spent indirect patient care, and the number of patients. As board-certified doctors, online medical doctors are well equipped to issue safe online prescriptions. The drugs captured in these prescriptions are recommended at a safe dose and are indicated for the presenting condition. In addition, the drugs are subjected to expert scrutiny by a registered pharmacist before dispensing. The risk of getting an unsafe online prescription is almost zero, considering the scrutiny an online prescription goes through.Online medical doctor services also offer a digital patient monitoring plan that assesses the effectiveness of therapy. With this service, an online doctor can monitor the level of a patient’s response to therapy, medication adherence, and unwanted drug reactions. Patients can regularly submit health data that helps the online doctor understand how the drug dosage is affecting therapy. Many times, the information supplied remotely by the patient guides the online medical doctor to modify medication dosages. Modifying the dosage of medications initially prescribed might also be necessary to maximize therapy. These procedures indirectly reveal the level of medication safety to the online doctor who continuously monitors potential known adverse drug effects.</p>
+                    <p className="m-lg-3 p-lg-3">Online shop hold the same qualification asofline book shop.Online stores provide various kinds of books such as public speaking textbooks, accounting textbooks, competitive exam textbooks, business textbooks etc, technical textbooks etc.Lab course books are also available such as Medical Laboratory Science,chemical testing,  Active lab and so on.Lab training courses are usually part of certificate and associate’s degree programs in different fields .These courses include combo packs of HPLC, AAS, GC, Food and pharma microbiology etc.</p>
                 </div>
                 <div className="m-lg-2 p-lg-2">
                     

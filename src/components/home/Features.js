@@ -3,7 +3,7 @@ import './home.css';
 import img1 from '../../images/fimg1.png';
 import img2 from '../../images/fimg2.png';
 import img3 from '../../images/fimg3.png';
-import { Table } from 'react-bootstrap';
+import { Spinner, Table } from 'react-bootstrap';
 import '../Services/Services.css';
 import Service from '../Services/Service';
 
@@ -20,6 +20,10 @@ const Features = () => {
                 <h1 className="text-info text-center mt-lg-3 mb-lg-3">Our Services</h1>
                 <div className="service-container container">
                     {
+                        products.length===0 ? 
+                        <div className="d-flex justify-content-center align-items-center">
+                          <Spinner animation="border" />
+                        </div>:
                         products.slice(0, 6).map(product => <Service
                             key={product._id}
                             product={product}

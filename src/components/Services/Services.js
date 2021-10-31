@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import Service from './Service';
 import './Services.css';
 import imgbg from '../../images/sev6.jpg';
+import { Spinner } from 'react-bootstrap';
 
 const Services = () => {
     const [products,setProducts]=useState([]);
@@ -20,7 +21,12 @@ const Services = () => {
             <div className='m-lg-5 p-lg-5'>
                 <h1 className="text-info text-center mt-lg-3 mb-lg-3">Our All Books</h1>
                 <div className="service-container container">
+                    
                     {
+                        products.length===0 ? 
+                            <div className="d-flex justify-content-center">
+                              <Spinner animation="border" />
+                            </div>:
                         products.map(product => <Service
                             key={product._id}
                             product={product}
