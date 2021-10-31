@@ -3,6 +3,8 @@ import { useHistory, useLocation, useParams } from 'react-router';
 import { useForm } from "react-hook-form";
 import '../../login/login.css';
 import useAuth from '../../../Hooks/useAuth';
+import { Link } from 'react-router-dom';
+import Button from '@restart/ui/esm/Button';
 
 const UpdateProduct = () => {
     const { register,reset, handleSubmit, watch, formState: { errors } } = useForm();
@@ -46,6 +48,9 @@ const UpdateProduct = () => {
     return (
         <div className='container loginWrapper mt-5 mb-5 p-5'> 
            <h1 className="text-center">Update Book Information</h1> 
+           <Link to='/viewallproduct'>
+                <Button  className="btn btn-outline-info">Go All View Product Page</Button>
+            </Link>
            <div className="d-flex justify-content-center flex-culumn align-items-center">
            <form onSubmit={handleSubmit(onSubmit)}>
                <div className="m-2">

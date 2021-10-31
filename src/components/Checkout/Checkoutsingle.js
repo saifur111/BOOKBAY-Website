@@ -42,7 +42,7 @@ const Checkoutsingle = ({product}) => {
               if(data.matchedCount>0){
                 alert('approved successfully!')
                 setIsUpdate(true)
-
+                window.location.reload();
               }else{
                 setIsUpdate(false)
               }

@@ -1,4 +1,6 @@
+import Button from '@restart/ui/esm/Button';
 import React, { useRef } from 'react';
+import { Link } from 'react-router-dom';
 
 const AddProducts = () => {
     const booktitleRef = useRef();
@@ -32,8 +34,11 @@ const AddProducts = () => {
         // console.log("click");
     }
     return (
-        <div className="container">
+        <div className="container text-center justify-content-center align-items-center mt-5 p-3">
             <h1 className="text-center">Add Book Information</h1>
+            <Link to='/viewallproduct'>
+                <Button  className="btn btn-outline-info">Go All View Product Page</Button>
+            </Link>
             <form onSubmit={handleAddUser}>
             <div className="row flex-column mb-3 g-3">
                 <div className="col">

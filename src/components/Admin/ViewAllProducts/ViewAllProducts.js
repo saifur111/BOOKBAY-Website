@@ -14,6 +14,9 @@ const ViewAllProducts = () => {
     return (
         <div className="text-center justify-content-center align-items-center mt-5 p-3">
             <h1>Product Found : {products.length}</h1>
+            <Link to='/addproduct'>
+                <Button  className="btn btn-outline-info">Go Add Product Page</Button>
+            </Link>
             <div className="service-container container">
                     {
                         products.map(product=> <Viewsingleproduct
