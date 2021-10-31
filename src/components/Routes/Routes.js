@@ -18,6 +18,7 @@ import Checkout from '../Checkout/Checkout';
 import AddProducts from '../Admin/AddProducts/AddProducts';
 import ViewAllProducts from '../Admin/ViewAllProducts/ViewAllProducts';
 import AdminHome from '../Admin/AdminHome/AdminHome';
+import UpdateProduct from '../Admin/UpdateProduct/UpdateProduct';
 
 
 
@@ -55,14 +56,17 @@ const Routes = () => {
                         <Route path="/aboutus">
                             <About></About>
                         </Route> 
-                        <PrivateRoute path="/cart">
+                        <PrivateRoute path="/cart/:id">
                             <Cart></Cart>
                         </PrivateRoute>
-                        <PrivateRoute path="/checkout/:serviceId">
+                        <PrivateRoute path="/checkout">
                             <Checkout></Checkout>
                         </PrivateRoute>
                         <PrivateRoute path="/addproduct">
                             <AddProducts></AddProducts>
+                        </PrivateRoute>
+                        <PrivateRoute path="/updateproduct/:id">
+                            <UpdateProduct></UpdateProduct>
                         </PrivateRoute>
                         <PrivateRoute path="/viewallproduct">
                             <ViewAllProducts></ViewAllProducts>

@@ -1,7 +1,7 @@
 import Button from "@restart/ui/esm/Button";
 import { Carousel } from "react-bootstrap";
 import { Link } from "react-router-dom";
-import banner1 from '../../images/about1.jpg';
+import banner1 from '../../images/h2.jpg';
 import ip1 from '../../images/ip1.png';
 import ip2 from '../../images/ip2.png';
 import ip3 from '../../images/ip3.png';
@@ -24,7 +24,7 @@ const About =()=> {
                     <Carousel.Caption className='pt-0'>
                         <h1 className='banner-h1'>ABOUT US</h1>
                         <p className='banner-p'>Making it easy to see a doctor online, right now.</p>
-                        <Link className='btn btn-outline-dark m-2 p-2' to="/">CONSULT ME NOW</Link> 
+                        <Link className='btn btn-outline-dark m-2 p-2' to="/services">Shop Now</Link> 
                     </Carousel.Caption>
                 </Carousel.Item>
             </Carousel>
@@ -34,16 +34,16 @@ const About =()=> {
                     <div className="col d-flex">
                         <img className="bg-w2" src={ip1}alt="" />
                         <div>
-                            <h6 className="bg-h6">Board Certified Doctors</h6>
-                            <p>Our team of doctors are all board certified and trained in the United States. Rest assured, you are getting the best possible care.</p>
+                            <h6 className="bg-h6">All Categories Books</h6>
+                            <p>Our team of provides are All Categories Books. </p>
                         </div>
                     </div>
 
                     <div className="col d-flex">
                         <img className="bg-w2" src={ip2}alt="" />
                         <div>
-                            <h6 className="bg-h6">Highly Rated Doctors</h6>
-                            <p>Mediclinic has thousands of 5-star reviews from satisfied customers. These can be found on TrustPilot, Google, Facebook, and other sites.</p>
+                            <h6 className="bg-h6">Highly Rated Author</h6>
+                            <p>WorlBest Writers Book we provides.</p>
                         </div>
                     </div>
                 </div>
@@ -51,11 +51,11 @@ const About =()=> {
                     <div className="col d-flex">
                         <img className="bg-w2" src={ip3}alt="" />
                         <div>
-                            <h6 className="bg-h6">Quality Care</h6>
-                            <h6>Average doctor consultation:
+                            <h6 className="bg-h6">Quality Standured</h6>
+                            <h6>Average Book Quality consultation:
                               <ul>
-                                <li>MDLive - Tk 82</li>
-                                <li>Teladoc - Tk 75</li>
+                                <li>White Print - Tk 82</li>
+                                <li>Color Print - Tk 75</li>
                                 </ul>for common conditions.
                               </h6>
                         </div>
@@ -80,7 +80,7 @@ No Risk Money </h6>
                     <div className="col d-flex">
                         <img className="bg-w2" src={ip6}alt="" />
                         <div>
-                            <h6 className="bg-h6">Cardiac Clinic</h6>
+                            <h6 className="bg-h6">Scicence Book</h6>
                             <p>Lorem ipsum dolor sit amet, cons ectetuer. Proin gravida nibh vel velit auctor aliquet aenean</p>
                         </div>
                     </div>
@@ -90,8 +90,8 @@ No Risk Money </h6>
             <div className="container my-lg-5">
                 <div className="m-lg-2 p-lg-2">
                     
-                    <h1 className="m-lg-2 p-lg-2">Getting a Prescription Online</h1>
-                    <p className="m-lg-3 p-lg-3">Prescriptions are very important in medical care. At a point in time, during a clinic visit, almost all the patients will be issued a prescription. According to a Statista report, about 4.38 billion retail prescriptions were filled in the United States alone in 2019. In 2020, over 4.55 billion prescriptions were issued. The report also projects that the number of retails prescriptions issued in the United States by 2025 will reach over 4.98 billion. A major percentage of these prescriptions was issued in physical hospital visits. As the reach of online doctor services expands, more prescriptions are expected to be issued online.Getting an online prescription comes with little or no difficulties. In fact, all patients registered to online medical services are expected to get an online prescription. On making clerking a patient and making a diagnosis, an online doctor can order for a medical investigation online. Test results might be needed to determine the needed to effectively treat the presenting conditions. An online doctor is licensed to virtually generate a prescription and transmit it to a registered on the telemedicine network. Transmission of online prescriptions is done confidentially on a secured network provided by a digital health service provider. A patient can present at the pharmacy, supply an identification code and get the medications captured in the online prescription.Getting an online prescription has proven useful in the wake of the recent COVID-19 outbreak. As the lockdown continued, the lockdown procedure forced patients who needed a refill to order online. Refills are especially important for patients on an active prescription. Those who registered with an online medical service provider and needed a prescription also got them issued online. Many online doctor services have partnered with different pharmacies for at-home and mail-order deliveries of refills. This plan of full-service online medical care totally removes the burden of accessing medical care from the patient.</p>
+                    <h1 className="m-lg-2 p-lg-2">Online Book Management</h1>
+                    <p className="m-lg-3 p-lg-3">In this system, you can buy, sell or even rent your books as well as second-hand books.You can search books online by title, author and even with the help of  ISBN no or International Standard Book Number which is a 10 to 13 digit unique identification no for books. Books are placed online in such a manner that you have the basic and direct understanding of the book in short time period.Buyback facility is also available so you can even buy again those books that you have sold previously.There are some special facilities available with Buybacks.</p>
                 </div>
                 <div className="m-lg-2 p-lg-2">
                     
@@ -100,8 +100,9 @@ No Risk Money </h6>
                 </div>
                 <div className="m-lg-2 p-lg-2">
                     
-                    <h1 className="m-lg-2 p-lg-2">Regulation Guiding Online Prescription Issuing Services</h1>
-                    <p className="m-lg-3 p-lg-3">Depending on existing State laws, there are a few regulations that guide how online prescriptions are issued, filled, and modified. Prescription-only medications might only be allowed for patients who have previously established a patient-provider relationship with the virtual medical service provider. Over-the-counter medications, on the other hand, can be routinely captured on an online prescription for patients who require no urgent medical care. Other regulations also put the burden of the responsible provision of drugs on the pharmacist while mandating the virtual doctor to conduct the needed medical investigation before issuing an online prescription. As telemedicine increases its reach and offer designed to care for many disease conditions, it is expected that the number of prescriptions issued online will also increase significantly.</p>
+                    <h1 className="m-lg-2 p-lg-2">Books Category</h1>
+                    <p className="m-lg-3 p-lg-3">Online stores provide various kinds of books such as public speaking textbooks, accounting textbooks, competitive exam textbooks, business textbooks etc, technical textbooks etc.Lab course books are also available such as Medical Laboratory Science,chemical testing,  Active lab and so on.
+                    Lab training courses are usually part of certificate and associate’s degree programs in different fields .These courses include combo packs of HPLC, AAS, GC, Food and pharma microbiology etc. You  have to sign up for these online lab training courses to advance your professional knowledge and skills.These courses will enhance your future career prospects.It’s a good and best way to exploring knowledge by means of online courses. You can buy study material for these courses through various online bookstores for example. Booksrun</p>
                 </div>
                 <div className="d-flex justify-content-center m-lg-2 p-lg-2 w-100">
                 <Link to="/"><Button  className="btn btn-outline-info ">Go Home<span className="btn-outline-dark"><i className="fas fa-chevron-right"></i></span></Button></Link>   

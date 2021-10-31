@@ -13,7 +13,7 @@ const AddProducts = () => {
         const image = imageRef.current.value;
         const rateing = bookrateRef.current.value;
         const newUser = { booktitle,bookprice,discrioption,image,rateing};
-        const url='http://localhost:5000/addproduct';
+        const url='https://howling-ghoul-86513.herokuapp.com/addproduct';
         fetch(url,{
             method :'POST',
             headers: {
@@ -24,7 +24,7 @@ const AddProducts = () => {
         .then(res => res.json())
         .then(data => {
             if (data.insertedId) {
-                alert('Successfully added the user.')
+                alert('Successfully added the Products.')
                 e.target.reset();
             }
         })

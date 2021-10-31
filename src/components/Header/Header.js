@@ -3,7 +3,6 @@ import './header.css';
 import { Link } from 'react-router-dom';
 import useAuth from '../../Hooks/useAuth';
 import l1 from '../../images/logoheader.png'
-import Button from '@restart/ui/esm/Button';
 
 const Header = () => {
     const {user,logOut}=useAuth();
@@ -58,7 +57,7 @@ const Header = () => {
                                 
                             }
 
-                                <Link to="/cart" className="btn btn-outline-primary m-2 p-2" type="button"><i className="fas fa-cart-plus"></i></Link>
+                                <Link to={`/cart/id`} className="btn btn-outline-primary m-2 p-2" type="button"><i className="fas fa-cart-plus"></i></Link>
                             </div>
                          </div>
                 </div>

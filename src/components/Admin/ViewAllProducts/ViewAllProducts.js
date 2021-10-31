@@ -1,8 +1,28 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
+import Viewsingleproduct from './Viewsingleproduct';
+import '../../Services/Services.css';
+import Button from '@restart/ui/esm/Button';
+import { Link } from 'react-router-dom';
 
 const ViewAllProducts = () => {
+    const [products,setProducts]=useState([]);
+    useEffect(()=>{
+        fetch(`https://howling-ghoul-86513.herokuapp.com/viewallproduct`)
+        .then(res=>res.json())
+        .then(data=>setProducts(data));
+    },[])
     return (
-        <div>
+        <div className="text-center justify-content-center align-items-center mt-5 p-3">
+            <h1>Product Found : {products.length}</h1>
+            <div className="service-container container">
+                    {
+                        products.map(product=> <Viewsingleproduct
+                            Viewsingleproduct
+                            key={product._id}
+                            product={product}
+                        ></Viewsingleproduct>)
+                    }
+            </div>
             
         </div>
     );

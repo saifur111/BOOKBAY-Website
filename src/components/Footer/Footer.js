@@ -2,7 +2,7 @@ import React from 'react';
 import './footer.css';
 import { Link } from 'react-router-dom';
 import imgbg from '../../images/fimg.jpg';
-import l1 from '../../images/l1.png';
+import l1 from '../../images/logoheader.png'
 
 const Footer = () => {
     return (
@@ -16,8 +16,7 @@ const Footer = () => {
                     <Link className="navbar-brand" to="/" href="#">
                     <img src={l1} alt="" width="180" />
                     </Link>
-                        <h6 className="f-h6 text-left">
-                        Ut wisi enim ad minim veniam, quis laore nostrud exerci tation ulm hedi corper turet suscipit lobortis augue duis dolore te feugait nulla facilisi mazim placerat
+                        <h6 className="f-h6 text-left">Supporting Local Bookstores Buy Books.
                         </h6>
                         <h6 className="f-h6">
                             <span><i className="fas fa-map-marker-alt hov"></i></span>
@@ -43,13 +42,12 @@ const Footer = () => {
                 <div>
                     <h4 className="f-h4"><span>Quick Links</span></h4>
                     <h6 className="f-h6"><span>Home</span></h6>
-                    <h6 className="f-h6"><span>Doctors</span></h6>
+                    <h6 className="f-h6"><span>Categories</span></h6>
                     <h6 className="f-h6"><span>Services</span></h6>
                     <h6 className="f-h6"><span>Blog</span></h6>
                 </div>
                 <div>
                     <h4 className="f-h4"><span>About Us</span></h4>
-                    <h6 className="f-h6"><span>Abouts</span></h6>
                     <h6 className="f-h6"><span>History</span></h6>
                     <h6 className="f-h6"><span>Programs</span></h6>
                     <h6 className="f-h6"><span>Schedule</span></h6>
@@ -64,7 +62,7 @@ const Footer = () => {
                     <button className='btnsi m-2'>SUSCRIBE</button>
                 </div>
             </div>  
-            <h6 className="f-h6 m-3 text-center ">&copy; 2021-MediClinic.Develop By : Md Saifur Rahman</h6>                     
+            <h6 className="f-h6 m-3 text-center ">&copy; 2021-BOOKBAY.Develop By : Md Saifur Rahman</h6>                     
         </div>
     </div>
     );

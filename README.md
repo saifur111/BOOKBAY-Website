@@ -1,13 +1,13 @@
-# MediClinic Website(Online Base Health Services)
+# BOOKBAY Website(Online Base Book Shop Services)
 
-[Click here to visit Live MediClinic Website](https://clever-kilby-02f121.netlify.app/)
+[Click here to visit Live BOOKBAY Website]()
 ## Short Description
-It's a React Website for providing medical doctor service via online.
-Here anyone can make appoinment to the Doctor for medication.
+It's a React Website for providing Book service via online.
+Here anyone can Buy all kinds off books.
 ## Features and Functionality
-  -> (Create a platform medical Doctor service via online )
-  -> (An authorize User can make an appointment)
-  -> (Any one can contact our doctor)
+  -> (Create a platform Book Shop service via online )
+  -> (An authorize User can Buy Books)
+  -> (Any one can contact our Book Shop Services)
   -> (Google Firebase authentication for secure users account)
   -> (User can create an account with his Gmail)
   -> (Password Reset,Email verification)

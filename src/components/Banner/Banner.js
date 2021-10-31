@@ -5,11 +5,6 @@ import { Link } from 'react-router-dom';
 import banner1 from '../../images/h1.jpg';
 import banner2 from '../../images/h2.jpg';
 import banner3 from '../../images/h3.jpg';
-import b1 from '../../images/b5.png';
-import b2 from '../../images/b1.png';
-import b3 from '../../images/b2.png';
-import b4 from '../../images/b3.png';
-import b5 from '../../images/b4.png';
 
 
 const Banner = () => {

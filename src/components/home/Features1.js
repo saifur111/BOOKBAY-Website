@@ -1,21 +1,7 @@
 import React from 'react';
-import imgbg from '../../images/fc1.jpg';
-import img1 from '../../images/servicesicon/ia_100000000229.png';
-import img2 from '../../images/servicesicon/ia_600000003.png';
-import img3 from '../../images/servicesicon/ia_600000004.png';
-import img4 from '../../images/servicesicon/ia_600000005.png';
-import img5 from '../../images/servicesicon/ia_600000006.png';
-import img6 from '../../images/servicesicon/ia_600000007.png';
-import img7 from '../../images/servicesicon/ia_600000008.png';
-import img8 from '../../images/servicesicon/ia_600000009.png';
-import img9 from '../../images/servicesicon/ia_600000010.png';
-import img10 from '../../images/servicesicon/ia_600000011.png';
-import img11 from '../../images/servicesicon/ia_600000012.png';
-import img12 from '../../images/servicesicon/ia_600000015.png';
-import img13 from '../../images/servicesicon/ia_600000017.png';
-import img14 from '../../images/servicesicon/ia_600000015.png';
-import img15 from '../../images/servicesicon/ia_600000020.png';
-import img16 from '../../images/servicesicon/ia_600000017.png';
+import im1 from '../../images/fc3.jpg';
+import book1 from '../../images/boo1.png';
+
 import ip1 from '../../images/ip1.png';
 import ip2 from '../../images/ip2.png';
 import ip3 from '../../images/ip3.png';
@@ -28,67 +14,45 @@ import bg3 from '../../images/bg2.jpg';
 import bg4 from '../../images/bg3.jpg';
 import bg5 from '../../images/bg4.jpg';
 import bg6 from '../../images/bg5.jpg';
+import { Card } from 'react-bootstrap';
+import Button from '@restart/ui/esm/Button';
 
 
 const Features1 = () => {
     return (
         <>
+        <h1 className="text-center my-3 hov">Latest News</h1>
         <div className="container d-flex my-3 bg-light">
             <div className="col-6">
-                <h1>Finest Patient</h1>
-                <h1>Care & Amenities</h1>
-                <div className="m-5">
-                    <div className="row row-cols-4 gy-2 ">
-                        <div className="col"><img className="bg-w" src={img1}alt="" />
-                        </div>
-                        <div className="col"><img className="bg-w" src={img2}alt="" />
-                        </div>
-                        <div className="col"><img className="bg-w" src={img3}alt="" />
-                        </div>
-                        <div className="col"><img className="bg-w" src={img4}alt="" />
-                        </div>
-                    </div>
-
-                    <div className="row row-cols-4">
-                        <div className="col"><img className="bg-w" src={img5}alt="" />
-                        </div>
-                        <div className="col"><img className="bg-w" src={img6}alt="" />
-                        </div>
-                        <div className="col"><img className="bg-w" src={img7}alt="" />
-                        </div>
-                        <div className="col"><img className="bg-w" src={img8}alt="" />
-                        </div>
-                    </div>
-                    <div className="row row-cols-4">
-                        <div className="col"><img className="bg-w" src={img9}alt="" />
-                        </div>
-                        <div className="col"><img className="bg-w" src={img10}alt="" />
-                        </div>
-                        <div className="col"><img className="bg-w" src={img11}alt="" />
-                        </div>
-                        <div className="col"><img className="bg-w" src={img12}alt="" />
-                        </div>
-                    </div>
-                    <div className="row row-cols-4">
-                        <div className="col"><img className="bg-w" src={img13}alt="" />
-                        </div>
-                        <div className="col"><img className="bg-w" src={img14}alt="" />
-                        </div>
-                        <div className="col"><img className="bg-w" src={img15}alt="" />
-                        </div>
-                        <div className="col"><img className="bg-w" src={img16}alt="" />
-                        </div>
-                    </div>
-                </div>
-                <div className="d-flex justify-content-center">
-                <button className="btn btn-outline-info">Learn More <span className="btn-outline-dark"><i className="fas fa-chevron-right"></i></span></button>
-                </div>
-                
+                <div className="service m-lg-2 p-lg-2">
+                <Card>
+                    <Card.Img variant="top" src={im1} />
+                    <Card.Body>
+                        <Card.Title className="text-center text-info">From World Library Books</Card.Title>
+                        <h5><Card.Text>Posted On May 20, 2021</Card.Text></h5>
+                        <Card.Text>Cras ultricies ligula sed magna dictum porta. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus.</Card.Text>
+                        <Card.Footer className="">
+                            <Button className="btn btn-outline-info">Read More <span className="btn-outline-dark"><i className="fas fa-chevron-right"></i></span></Button>
+                        </Card.Footer>
+                    </Card.Body>
+                </Card>
             </div>
-            <div className="col-6 ">
-                <img className="w-100" src={imgbg} alt="" />
             </div>
-            
+            <div className="col-6">
+                <div className="service m-lg-2 p-lg-2">
+                    <Card>
+                        <Card.Img variant="top" src={book1} />
+                        <Card.Body>
+                            <Card.Title className="text-center text-info">From World Library Books</Card.Title>
+                            <h5><Card.Text>Posted On May 20, 2021</Card.Text></h5>
+                            <Card.Text>Cras ultricies ligula sed magna dictum porta. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus.</Card.Text>
+                            <Card.Footer className="">
+                                <Button className="btn btn-outline-info">Read More <span className="btn-outline-dark"><i className="fas fa-chevron-right"></i></span></Button>
+                            </Card.Footer>
+                        </Card.Body>
+                    </Card>
+                </div>
+            </div>    
         </div>
         <div className="container d-flex my-5 bg-light">
             <div className="row row-cols-3 gy-2 ">
@@ -96,7 +60,7 @@ const Features1 = () => {
                     <div className="col d-flex">
                         <img className="bg-w2" src={ip1}alt="" />
                         <div>
-                            <h6 className="bg-h6">Cardiac Clinic</h6>
+                            <h6 className="bg-h6">Religious</h6>
                             <p>Lorem ipsum dolor sit amet, cons ectetuer. Proin gravida nibh vel velit auctor aliquet aenean</p>
                         </div>
                     </div>
@@ -104,7 +68,7 @@ const Features1 = () => {
                     <div className="col d-flex">
                         <img className="bg-w2" src={ip2}alt="" />
                         <div>
-                            <h6 className="bg-h6">Cardiac Clinic</h6>
+                            <h6 className="bg-h6">Geography</h6>
                             <p>Lorem ipsum dolor sit amet, cons ectetuer. Proin gravida nibh vel velit auctor aliquet aenean</p>
                         </div>
                     </div>
@@ -113,14 +77,14 @@ const Features1 = () => {
                     <div className="col d-flex">
                         <img className="bg-w2" src={ip3}alt="" />
                         <div>
-                            <h6 className="bg-h6">Cardiac Clinic</h6>
+                            <h6 className="bg-h6">History Books</h6>
                             <p>Lorem ipsum dolor sit amet, cons ectetuer. Proin gravida nibh vel velit auctor aliquet aenean</p>
                         </div>
                     </div>
                     <div className="col d-flex">
                         <img className="bg-w2" src={ip4}alt="" />
                         <div>
-                            <h6 className="bg-h6">Cardiac Clinic</h6>
+                            <h6 className="bg-h6">Fiction</h6>
                             <p>Lorem ipsum dolor sit amet, cons ectetuer. Proin gravida nibh vel velit auctor aliquet aenean</p>
                         </div>
                     </div>
@@ -129,14 +93,14 @@ const Features1 = () => {
                 <div className="col d-flex">
                         <img className="bg-w2" src={ip5}alt="" />
                         <div>
-                            <h6 className="bg-h6">Cardiac Clinic</h6>
+                            <h6 className="bg-h6">Onions</h6>
                             <p>Lorem ipsum dolor sit amet, cons ectetuer. Proin gravida nibh vel velit auctor aliquet aenean</p>
                         </div>
                     </div>
                     <div className="col d-flex">
                         <img className="bg-w2" src={ip6}alt="" />
                         <div>
-                            <h6 className="bg-h6">Cardiac Clinic</h6>
+                            <h6 className="bg-h6">Economics</h6>
                             <p>Lorem ipsum dolor sit amet, cons ectetuer. Proin gravida nibh vel velit auctor aliquet aenean</p>
                         </div>
                     </div>
@@ -144,8 +108,8 @@ const Features1 = () => {
             </div>
         </div>
         <div className="container my-5">
-            <h1 className="text-center my-3 hov">Gallery of Our Clinic</h1>
-            <h5 className="text-center my-3">Exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo non habent claritatem insitamconsequat duis autem facilisis at vero eros</h5>
+            <h1 className="text-center my-3 hov">Gallery</h1>
+            <h5 className="text-center my-3">This is best onlineshop  in our Area.</h5>
             <div className="row gy-2 ">
                     <div className="col d-flex">
                         <img className="bg-w3" src={bg1}alt="" />

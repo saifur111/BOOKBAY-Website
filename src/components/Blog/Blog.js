@@ -5,7 +5,7 @@ import { Card, Carousel } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import banner1 from '../../images/about.jpg';
 import { useParams } from 'react-router';
-import img16 from '../../images/ia_700000130.jpg';
+
 
 
 
@@ -47,7 +47,7 @@ const Blog = () => {
             <div className="container my-lg-5">
             <div className="service m-lg-2 p-lg-2">
             <Card>
-                <Card.Img variant="top" src={img16} />
+                <Card.Img variant="top" src=""/>
                     <Card.Body>
                         <Card.Title>I Failed !</Card.Title>
                         <Card.Footer className="">

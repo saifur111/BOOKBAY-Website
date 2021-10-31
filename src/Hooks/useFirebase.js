@@ -120,7 +120,8 @@ const useFirebase =()=>{
         username,
         signInWithPasswordEmail,
         resetPassword,
-        loading
+        loading,
+        setLoading
     }
 }
 export default useFirebase;
